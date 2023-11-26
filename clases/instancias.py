@@ -1,17 +1,12 @@
 from cuadrado import Cuadrado
 
-figura1 = Cuadrado()
-figura1.perimetro()
-figura1.area()
 
-figura2 = Cuadrado()
-figura2.perimetro()
-figura2.area()
+cuadro = Cuadrado(2)
+print (f"El perimetro del cuadrado es: {cuadro.perimetro()}")
+print (f"El area del cuadrado es: {cuadro.area()}")
 
-figura3 = Cuadrado()
-figura3.perimetro()
-figura3.area()
+print (f"Lado actual: {cuadro.lado}")
+cuadro.lado = 4
+print (f"Nuevo lado: {cuadro.lado}\n")
 
-figura4 = Cuadrado()
-figura4.perimetro()
-figura4.area()
+
